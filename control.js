@@ -12,7 +12,7 @@
 		//
 		util 		= require('util');
 
-	http.createServer(function(request,response){
+	var server = http.createServer(function(request,response){
 		
 		//strPath = dizer onde esta o arquivo
 		//path.join = montar o caminho
