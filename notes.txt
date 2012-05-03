@@ -1,0 +1,4 @@
+
+	Obs:
+		Código crú.
+		Necessita ser testado.
