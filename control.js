@@ -84,4 +84,8 @@
 		//util.pump(readStream, response);
 		
 	//definindo a porta
-	}).listen(2000);
+	});
+	
+	var port = process.env.PORT || 3000;
+	
+	server.listen(port);
